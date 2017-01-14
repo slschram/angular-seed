@@ -12,3 +12,8 @@ angular.module('myApp.step3', ['ngRoute'])
 .controller('Step3Ctrl', [function() {
 
 }]);
+
+function show(elementId) {
+ document.getElementById("id1").style.display="none";
+ document.getElementById(elementId).style.display="block";
+}

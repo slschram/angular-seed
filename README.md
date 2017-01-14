@@ -1,4 +1,4 @@
-Base code for Team 8's code for the Hack-the-Gap event, based on the angular-seed framework.
+Base code for Team 8's code for the Hack-the-Gap step2, based on the angular-seed framework.
 
 
 # `angular-seed` — the seed for AngularJS apps
@@ -92,10 +92,10 @@ app/                    --> all of the source files for the application
       version-directive_test.js  --> version directive tests
       interpolate-filter.js      --> custom interpolation filter
       interpolate-filter_test.js --> interpolate filter tests
-  view1/                --> the view1 view template and logic
-    view1.html            --> the partial template
-    view1.js              --> the controller logic
-    view1_test.js         --> tests of the controller
+  emotion/                --> the emotion view template and logic
+    emotion.html            --> the partial template
+    emotion.js              --> the controller logic
+    emotion_test.js         --> tests of the controller
   view2/                --> the view2 view template and logic
     view2.html            --> the partial template
     view2.js              --> the controller logic
@@ -121,7 +121,7 @@ which we run with the [Karma][karma] test runner. We provide a Karma configurati
 
 * The configuration is found at `karma.conf.js`.
 * The unit tests are found next to the code they are testing and have an `_test.js` suffix (e.g.
-  `view1_test.js`).
+  `emotion_test.js`).
 
 The easiest way to run the unit tests is to use the supplied npm script:
 
@@ -148,7 +148,7 @@ npm run test-single-run
 ### Running End-to-End Tests
 
 The `angular-seed` app comes with end-to-end tests, again written in [Jasmine][jasmine]. These tests
-are run with the [Protractor][protractor] End-to-End test runner. It uses native events and has
+are run with the [Protractor][protractor] End-to-End test runner. It uses native step2s and has
 special features for Angular applications.
 
 * The configuration is found at `e2e-tests/protractor-conf.js`.
@@ -226,7 +226,7 @@ page. You can run this every time you update the version of Angular that you are
 While Angular is client-side-only technology and it is possible to create Angular web apps that
 do not require a backend server at all, we recommend serving the project files using a local
 web server during development to avoid issues with security restrictions (sandbox) in browsers. The
-sandbox implementation varies between browsers, but quite often prevents things like cookies, XHR,
+sandbox implementation varies between browsers, but quite often prstep2s things like cookies, XHR,
 etc to function properly when an HTML page is opened via the `file://` scheme instead of `http://`.
 
 ### Running the App during Development
