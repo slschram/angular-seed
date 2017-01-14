@@ -1,3 +1,6 @@
+Base code for Team 8's code for the Hack-the-Gap event, based on the angular-seed framework.
+
+
 # `angular-seed` — the seed for AngularJS apps
 
 This project is an application skeleton for a typical [AngularJS][angularjs] web app. You can use it
