@@ -6,7 +6,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>My AngularJS App</title>
+  <title>Reframe This Moment</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/normalize.css">
@@ -15,33 +15,35 @@
   <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 <body>
-  <ul class="menu">
-    <li><a href="#!/emotion">Emotion</a></li>
-    <li><a href="#!/event">Event</a></li>
-    <li><a href="#!/out">I need out!</a></li>
-  </ul>
+  <div class="content">
+    <h1>Reframe This Moment.</h1>
+    <ul class="menu">
+      <li><a href="#!/emotion">Emotion</a></li>
+      <li><a href="#!/event">Event</a></li>
+      <li><a href="#!/out">I need out!</a></li>
+    </ul>
 
-  <!--[if lt IE 7]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-  <![endif]-->
+    <!--[if lt IE 7]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
 
-  <div ng-view></div>
+    <div ng-view></div>
 
-
-  <!-- In production use:
-  <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
-  -->
-  <script src="bower_components/angular/angular.js"></script>
-  <script src="bower_components/angular-route/angular-route.js"></script>
-  <script src="app.js"></script>
-  <script src="emotion/emotion.js"></script>
-  <script src="out/out.js"></script>
-  <script src="event/event.js"></script>
-  <script src="next/next.js"></script>
-  <script src="step2/step2.js"></script>
-  <script src="step3/step3.js"></script>
-  <script src="components/version/version.js"></script>
-  <script src="components/version/version-directive.js"></script>
-  <script src="components/version/interpolate-filter.js"></script>
+    <!-- In production use:
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
+    -->
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="app.js"></script>
+    <script src="emotion/emotion.js"></script>
+    <script src="out/out.js"></script>
+    <script src="event/event.js"></script>
+    <script src="next/next.js"></script>
+    <script src="step2/step2.js"></script>
+    <script src="step3/step3.js"></script>
+    <script src="components/version/version.js"></script>
+    <script src="components/version/version-directive.js"></script>
+    <script src="components/version/interpolate-filter.js"></script>
+  </div>
 </body>
 </html>
