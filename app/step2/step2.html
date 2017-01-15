@@ -5,4 +5,17 @@
 <p>What happened?</p>
 <!-- Edit so that 'promptingEvent' sends somewhere -->
 <input type="text" style="height:100px;width:200px;"></input><br><br>
-<a href="#!/step3"><button>Submit</button></a>
+
+<p>What are your biological sensations?</p>
+
+<!-- Edit so that 'vulnerabilities' sends somewhere -->
+<input type="text" style="height:100px;width:200px;"></input><br><br>
+
+<!-- Button hits database to confirm or deny selected emotion -->
+<button type="button" onclick="show('id1');">Submit</button>
+
+<!-- Hide all below until submit is selected -->
+<div id="id1"  style="display:none">
+  <p>Based on your selections we belive you are experiencing {{emotion}}.</p>
+  <a href="#!/next"><button>What now?</button></a>
+</div>

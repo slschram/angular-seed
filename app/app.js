@@ -3,6 +3,7 @@
 // Declare app level module which depends on views, and components
 angular.module('myApp', [
   'ngRoute',
+  'myApp.home',
   'myApp.emotion',
   'myApp.out',
   'myApp.event',
@@ -14,5 +15,5 @@ angular.module('myApp', [
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
   $locationProvider.hashPrefix('!');
 
-  $routeProvider.otherwise({redirectTo: '/index.html'});
+  $routeProvider.otherwise({redirectTo: '/home.html'});
 }]);
