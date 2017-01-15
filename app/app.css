@@ -18,8 +18,8 @@ body {
   font-size: 16px;
 }
 .menuOut {
-  color: #FFFFFF;
-  background-color: #777777;
+  color: #4d6059;
+  background-color: #bbd4b4;
   padding: 1% 9%;
   text-align: center;
   font-size: 16px;
@@ -47,23 +47,34 @@ h1 {
 button {
     background-color: #bbd4b4; /* teal */
     border: none;
-    color: white;
+    color: #777777;
     padding: 10px 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     border-radius: 12px;
-    outline: none;
+}
+button:focus {
+  border: 2px solid #777777;
+  outline: #777777;
 }
 
 a:active {
   font-style: italic;
 }
 
+.home {
+  text-align: left;
+}
+
 .emoticon {
   font-size: 300%;
   padding: 0px 5px;
+}
+.myClickState {
+  border-color: #777777;
+  border-style: solid;
 }
 
 .left {
@@ -87,4 +98,17 @@ a:active {
 
 img {
   padding: 0;
+}
+
+.one {
+  display: none;
+}
+.two {
+  display: none;
+}
+.three {
+  display: none;
+}
+.four {
+  display: none;
 }

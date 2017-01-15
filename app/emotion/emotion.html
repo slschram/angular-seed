@@ -10,22 +10,19 @@
 <button class="emoticon">&#128544;</button>
 <!-- Sad -->
 <button class="emoticon">&#x1F622;</button>
-<!-- <button class="emoticon">&#9785;</button> -->
+
 <br><br>
 <!-- <button>Overwhelmed</button>
 <button>Anxious</button>
 <button>Angry</button>
 <button>Sad</button> -->
 
-<p>How intensely are you feeling this emotion (ten being strongest intensity)?</p>
+<p>How intensely are you feeling this emotion?</p>
 <!-- edit these to save the emotion chosen -->
-<a href="#!/step2"><button>1 - Not Elevated</button></a>
-<a href="#!/step2"><button>2 - Slightly Elevated</button></a>
-<a href="#!/step2"><button>3 - Moderately Elevated</button></a>
-<a href="#!/step2"><button>4 - Out of Control</button></a>
-<a href="#!/step2"><button>5 - I need help now</button></a>
-
 <input type="range" min="1" max="5" value="1" id="fader"
-	step="1" oninput="outputUpdate(value)">
-<output for="fader" id="volume">1</output>
+	step="1" oninput="outputUpdate(value)"><br>
+<output for="fader" id="volume">1</output>-
 <output for="fader" id="intensity">Not Elevated</output>
+
+<br><br>
+<a href="#!step2"><button>Next</button></a>

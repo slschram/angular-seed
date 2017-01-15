@@ -2,20 +2,17 @@
 <!-- <input type="radio" name="gender" value="male"> I did something.<br>
 <input type="radio" name="gender" value="male"> Something happened to me.<br> -->
 
-<p>What happened?</p>
+<p>How are you feeling? What symptoms are you experiencing?</p>
 <!-- Edit so that 'promptingEvent' sends somewhere -->
-<input type="text" style="height:100px;width:200px;"></input><br><br>
+<input type="text" style="height:100px;width:400px;"></input><br><br>
 
-<p>What are your biological sensations?</p>
 
-<!-- Edit so that 'vulnerabilities' sends somewhere -->
-<input type="text" style="height:100px;width:200px;"></input><br><br>
 
 <!-- Button hits database to confirm or deny selected emotion -->
 <button type="button" onclick="show('id1');">Submit</button>
 
 <!-- Hide all below until submit is selected -->
 <div id="id1"  style="display:none">
-  <p>Based on your selections we belive you are experiencing {{emotion}}.</p>
-  <a href="#!/next"><button>What now?</button></a>
+  <p>Based on your selections we suspect you are feeling Anxiety.</p>
+  <a href="#!/next"><button onclick="toggle_visibility('id2');">What now?</button></a>
 </div>
