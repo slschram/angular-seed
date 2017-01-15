@@ -48,10 +48,15 @@ button {
     background-color: #bbd4b4; /* teal */
     border: none;
     color: white;
-    padding: 5px 10px;
+    padding: 10px 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     border-radius: 12px;
+}
+
+.emoticon {
+  font-size: 300%;
+  padding: 0px 5px;
 }
