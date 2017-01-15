@@ -1,5 +1,6 @@
 'use strict';
 
+
 angular.module('myApp.step2', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
