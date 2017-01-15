@@ -12,3 +12,7 @@ angular.module('myApp.emotion', ['ngRoute'])
 .controller('View1Ctrl', [function() {
 
 }]);
+
+function outputUpdate(vol) {
+	document.querySelector('#volume').value = vol;
+}
